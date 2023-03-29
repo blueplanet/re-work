@@ -1,8 +1,7 @@
 ---
 title: ERC 4337 account abstraction の整理
-tags:
-  - blockchain
-  - ethereum
+date: 2022-12-07
+tags: ["Blockchain", "Ethereum"]
 ---
 
 
@@ -19,6 +18,9 @@ Ethereum のアカウントが下記２種類があるのは既に知られて�
 他の EIP もありますが、新しいトランザクションタイプの追加や新しい opcode の追加のようなプロトコルレイヤーの修正が必要なので、あんまり進められていませんでした。ERC4337 は、それらの修正の必要ない新しい考案であるため注目されています。
 
 ERC4337 の設計は、メタトランザクションを参考して実現しています。参考記事が詳細があるので、ここはシーケンス図を載せておきます。
+
+
+
 <!--truncate-->
 
 ## ERC 4337 のシーケンス図
@@ -41,7 +43,7 @@ us->>mp: 処理に必要なデータを送信
 note over us,mp: UserOperation として作成し mempool に送信する
 loop do
   bu->>mp: 処理データを取得
-  mp->>bu: 処理データが返される
+  mp->>bu:
 end
 bu->>ep: 処理実行
 
@@ -62,7 +64,7 @@ end
 ```
 
 ## 参考リンク
-- [ERC 4337: account abstraction without Ethereum protocol changes @Vitalik](https://medium.com/infinitism/erc-4337-account-abstraction-without-ethereum-protocol-changes-d75c9d94dc4a)
+- [ERC 4337: account abstraction without Ethereum protocol changes @Vitalik]
 - [AA（Account Abstraction）の先にある、コントラクトウォレット中心の世界](https://zenn.dev/sivira/articles/d041f1ac44ca1e#%E9%96%A2%E9%80%A3%E8%B3%87%E6%96%99%EF%BC%882022.07.13%2C-2022.08.30-%E8%BF%BD%E8%A8%98%EF%BC%89)
 
 ## まとめ

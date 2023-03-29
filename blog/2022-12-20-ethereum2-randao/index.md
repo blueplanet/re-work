@@ -1,13 +1,14 @@
 ---
 title: イーサリアム 2.0：RANDAO とは
-tags:
-  - blockchain
-  - ethereum
+date: 2022-12-20
+tags: ["Blockchain", "Ethereum", "Ethereum2.0"]
 ---
 
 イーサリアム 2.0 の PoS の処理の中、いくつの `ランダム値` が必要な場面があります。イーサリアム 2.0 の場合は、この処理を担当しているのが `RANDAO` になります。
 
 https://qiita.com/blueplanet/items/58839a15e721df7e6175
+
+
 
 <!--truncate-->
 

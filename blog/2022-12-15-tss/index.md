@@ -1,10 +1,13 @@
 ---
 title: TSS ：閾値署名の紹介
-tags:
-  - blockchain
+date: 2022-12-15
+tags: ["Blockchain", "暗号"]
 ---
 
 ブロックチェーンを利用する際にプライベートキーを使いますが、プライベートキーのセキュアな管理方法については、ずっと研究されています。その中の１つは、Threshold Signature Scheme（TSS）という方法があります。
+
+
+
 <!--truncate-->
 
 ## TSS とは
@@ -20,7 +23,7 @@ TSS とは、Threshold Signature Scheme の略語であり、マルチパーテ�
 数学の話になるので、数学が下手な私はあんまり説明できませんが、ベースは、連立方程式です。連立方程式において未知数を求めるためには、未知数個数分の関係式があれば解けます。
 非常に分かりやすい記事があったので、そちらを参照してください。
 
-![](./images/tsss02.gif)
+![](https://atmarkit.itmedia.co.jp/fsecurity/special/53tsss/tsss02.gif)
 
 参照元：https://atmarkit.itmedia.co.jp/fsecurity/special/53tsss/tsss02.html
 

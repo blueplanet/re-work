@@ -1,8 +1,7 @@
 ---
 title: イーサリアム 2.0：シャーディングについて
-tags:
-  - blockchain
-  - ethereum
+date: 2022-12-25
+tags: ["Blockchain", "Ethereum", "Ethereum2.0"]
 ---
 
 イーサリアム 2.0 のコンセンサスアルゴリズムが PoS に移行できました。次の課題はシャーディングになります。
@@ -11,10 +10,12 @@ tags:
 
 それ以来、新しい設計がコミュニティで広く議論され danksharding と名付けました。
 
+
+
 <!--truncate-->
 
 ## もとの設計の課題
-![image.png](./images/shard.png)
+![image0.png](image0.png)
 引用元：https://vitalik.ca/general/2021/04/07/sharding.html
 
 元の設計案では、シャードチェーンにあるノードサーバーは、そのシャードチェーンのデータだけ同期・処理します。課題はコンセンサスに参加するバリデーターのデータ同期です。
@@ -23,7 +24,7 @@ tags:
 規定の時間内ですべてのバリデーターが全部正常にデータ同期できる保証が難しいです。いくつソリューションがありますが、攻撃の対応も必要なので、全体的には難航な状況でした。
 
 ## danksharding 設計
-![Screen Shot 2022-12-24 at 23.38.18.png](./images/danksharding.png)
+![image1.png](image1.png)
 引用元：https://docs.google.com/presentation/d/1-pe9TMF1ld185GL-5HSWMAsaZLbEqgfU1sYsHGdD0Vw/edit#slide=id.g1150d91b32e_0_800
 
 シャードチェーンを使わずに、ビーコンチェーンにデータを付加する提案になります。
