@@ -78,6 +78,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        appId: '18M9UN5TTI',
+        apiKey: '34577cd1e48b925bef2df64ff4c288c8',
+        indexName: 're-work',
+      },
     }),
 };
 
