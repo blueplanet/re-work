@@ -43,7 +43,7 @@ us->>mp: 処理に必要なデータを送信
 note over us,mp: UserOperation として作成し mempool に送信する
 loop do
   bu->>mp: 処理データを取得
-  mp->>bu:
+  mp->>bu: 処理データ戻す
 end
 bu->>ep: 処理実行
 
