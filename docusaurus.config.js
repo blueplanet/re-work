@@ -65,7 +65,7 @@ const config = {
       navbar: {
         title: '守破離の足跡',
         items: [
-          {to: '/blog', label: 'ブログ', position: 'left'},
+          { to: '/blog', label: 'ブログ', position: 'left' },
         ],
       },
       footer: {
@@ -77,6 +77,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['solidity'],
       },
       algolia: {
         appId: '18M9UN5TTI',
